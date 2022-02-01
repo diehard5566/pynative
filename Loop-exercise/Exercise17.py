@@ -11,6 +11,8 @@ num = int(input("Given number: "))
 
 sum = 2
 count = 0
-while count <= (sum + (sum * 10))*(num-1):
-    print(count)
-    count = count + ((sum + (sum * 10))*(num-1))
+
+for i in range(0, num):
+    count += sum 
+    sum = sum * 10 +2
+print(count)
