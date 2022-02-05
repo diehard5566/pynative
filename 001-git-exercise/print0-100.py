@@ -1,2 +1,4 @@
-for i in range(0,101):
-    print(i)
+person = {"name": "Jessa", "country": "USA", "telephone": 1178}
+
+# Get all keys
+print(person.keys())
