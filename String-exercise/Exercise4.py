@@ -7,11 +7,20 @@
 # str1 = PyNaTive
 
 def lowfirst(str1):
-    newstr = [i for i in str1 if i.islower()]
-    #print(newstr)
+    #find lower case in string
+    newstr = []
+    for i in str1:
+        if i.islower():
+            newstr.append(i)
+   
+    #.join() combine string
     low = ''.join(newstr)
 
-    newstr2 = [j for j in str1 if j.isupper()]
+    newstr2 = []
+    for j in str1:
+        if j.isupper():
+            newstr2.append(j)
+
     up = ''.join(newstr2)
 
     lowfirst1 = low + up
