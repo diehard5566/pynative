@@ -6,6 +6,7 @@
 str1 = "Emma25 is Data scientist50 and AI Expert"
 
 sp = str1.split()
+
 for i in sp:
     if not i.isalpha():
         print(i)
