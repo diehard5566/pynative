@@ -24,7 +24,7 @@ s2_length = len(s2)
 # get length of a bigger string
 length = s1_length if s1_length > s2_length else s2_length
 result = ""
-print(length)
+
 # reverse s2
 s2 = s2[::-1]
 

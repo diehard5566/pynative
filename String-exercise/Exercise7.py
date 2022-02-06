@@ -4,16 +4,17 @@
 # The character’s position doesn’t matter.
 
 def balance(s1, s2):
+    flag = True
     for i in s1:
         if i in s2:
-            print(True)
+            continue
         else:
-            print(False)        
-        
+            flag = False
+    return flag       
     
        
     
 # balance("Yn", "PYnative")
-balance("Ynf", "PYnative")
+print(balance("Ynf", "PYnative"))
 # balance("at", "PYnative")
-balance("atP", "PYnative")
+print(balance("atP", "PYnative"))
