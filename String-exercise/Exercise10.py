@@ -5,6 +5,9 @@ str1 = "Apple"
 
 count = {}
 
+dic = list(enumerate(str1))
+print(dic)
+
 c = str1.count("A")
 
 print(c)
