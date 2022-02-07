@@ -15,6 +15,7 @@
 
 # print(recu(10))
 
+#用遞迴方式，重複call這個function本身，用法跟loop有點像。
 def addition(num):
     if num:
         # call same function by reducing number by 1
