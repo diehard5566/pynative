@@ -8,7 +8,7 @@ def func1(*number):
     count = 0
     for i in number:
         count = count + i
-        print(count)
+    print(count)
 
 func1(20, 40, 60)
 func1(80, 100)
