@@ -4,11 +4,14 @@
 # At last, an outer function will add 5 into addition and return it
 
 def outer(a, b):
+
     def inner(a, b):
         sum = a + b
         return sum
-    fin = inner(a, b) + 5
-    print(fin)
+        
+    fin = inner(a, b) 
+    return fin + 5
+    
 
-outer(5,2) 
+print(outer(5,10))
     
