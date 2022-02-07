@@ -10,6 +10,7 @@ dic = {}
 
 for num in sample_list:
     count = sample_list.count(num)
+     # num = key , count = value 
     dic[num] = count
 
 print(dic)
