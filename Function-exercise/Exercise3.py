@@ -8,7 +8,7 @@ def calculation(a, b):
     # Your Code
     sum =a + b
     minus = a - b
-    return sum, int(minus)
+    return sum, minus
     
     
 res = calculation(40, 10)
