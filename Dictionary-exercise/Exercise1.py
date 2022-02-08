@@ -5,10 +5,17 @@
 
 
 def dic(keys, values):
-    new = zip(keys , values)
+    new = dict(zip(keys , values)) 
     print(new)
     
 keys = ['Ten', 'Twenty', 'Thirty']
 values = [10, 20, 30]
 
 dic(keys, values)
+
+# empty dictionary
+# res_dict = dict()
+
+# for i in range(len(keys)):
+#     res_dict.update({keys[i]: values[i]})
+# print(res_dict)
