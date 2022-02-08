@@ -11,5 +11,4 @@ list3 = list2[2]
 
 list3.append(7000)
 
-
 print(list1)
