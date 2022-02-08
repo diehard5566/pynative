@@ -11,7 +11,7 @@ l3 = list(zip(list1, list2[::-1]))
 
 print(l3)
 
-for x, y in l3:
+for x, y in zip(list1, list2[::-1]):
     print(x, y)
         
     
